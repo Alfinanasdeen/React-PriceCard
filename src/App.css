@@ -1,0 +1,138 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.price-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  align-items: flex-start;
+  text-align: left;
+  border-radius: 16px;
+  background-color: white !important;
+}
+
+.card_header {
+  text-align: center;
+  padding: 8px;
+}
+
+.title {
+  text-align: center;
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  opacity: 0.5;
+}
+
+.price {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.features {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.feature-list {
+  margin-right: 20px;
+}
+
+.feature > ul > li {
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.tick-mark {
+  content: "✓";
+  margin-right: 5px;
+}
+
+.feature-text {
+  margin-right: 20px;
+}
+
+hr {
+  margin: 0px 5px 0px 10px;
+  border-top: 1px solid #f0f0f0;
+}
+
+body {
+  background: #007bff;
+  background: linear-gradient(to right, #0062e6, #33aeff);
+  font-family: "Times New Roman", Times, serif;
+  margin: 2rem;
+}
+
+.buy-button {
+  background-color: #007bff;
+  color: white;
+  width: 90%;
+  font-size: 80%;
+  border-radius: 5rem;
+  border: 0px solid white;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+.buy-PRO {
+  background-color: #0465f5;
+  color: white;
+  width: 90%;
+  font-size: 80%;
+  border-radius: 5rem;
+  border: 0px solid white;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+.list_checked::before {
+  content: "✓";
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 5px;
+  padding-left: 0px;
+  margin-top: 16px;
+}
+
+.ul li {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  font-size: 1.2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-muted::before {
+  content: "⨯";
+  font-weight: bold;
+  margin-right: 10px;
+  opacity: 0.7;
+}
+
+.text-muted {
+  opacity: 0.7;
+}
